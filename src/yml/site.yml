@@ -15,6 +15,12 @@ show_hero: true
 menu:
   - title: Home
     url: /
+  - title: NBA
+    url: /category/nba/
+  - title: NCAAMB
+    url: /category/ncaamb/
+  - title: Hip Hop
+    url: /category/hiphop/
   - title: About
     url: /about
   - title: Contact
