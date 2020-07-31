@@ -1,13 +1,16 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: 808s and Fastbreak
+title: 808s and Fastbreak | Sports and Hip Hop Content
+description: 808s and Fastbreak creates media focusing on sports and hip hop, centered on data-driven content.
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - podcast
+  - hip hop
+  - rap
+  - sports
+  - NBA
+  - NFL
+  - NCAAB
+  - NCAAF
 show_hero: true
 menu:
   - title: Home
@@ -16,7 +19,5 @@ menu:
     url: /about
   - title: Contact
     url: /contact
-  - title: Feed
-    url: /feed.xml
 email: youremail@test.com
 disqus_username: disqus_username
