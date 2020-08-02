@@ -5,10 +5,10 @@ title: "Is the Ewing Theory Real?"
 subtitle: A look through Ewing theory candidates so far in the 2018-19 NBA season.
 description: A look through Ewing theory candidates so far in the NBA season.
 image: https://img.bleacherreport.net/img/images/photos/003/767/583/hi-res-c24a8e03e9a1b9b420d182d457d98ca0_crop_north.jpg?h=533&w=800&q=70&crop_x=center&crop_y=top
-optimized_image:
+optimized_image: https://i.imgur.com/zEMpKbz.png
 credit: Nathaniel S. Butler/Getty Images
 category: nba
-tags: nba, analytics
+tags: nba analytics
 author: kdutta
 fullname: Kunal Dutta
 paginate: false

@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: /assets/img/uploads/profile.png
+photo: https://kdutta9.github.io/assets/img/profile.png
 name: kdutta
 display_name: Kunal Dutta
 position: Chief Editor

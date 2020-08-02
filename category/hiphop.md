@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Hip Hop
-slug: hiphop
+slug: hip hop
 description: All hip hop music content.
 ---

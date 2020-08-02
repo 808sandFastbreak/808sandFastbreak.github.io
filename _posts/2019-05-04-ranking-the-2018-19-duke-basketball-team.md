@@ -5,9 +5,9 @@ title: "Ranking the 2018-19 Duke Basketball Team"
 subtitle: Was this team really the best Duke has assembled?
 description: An analysis of the 2018-19 Duke men's basketball team, compared to other recent Blue Devil squads.
 image: https://raw.githubusercontent.com/BerkeleySportsAnalytics/sagb-site/master/images/dj-pics/greatest-duke-team/main.jpg
-optimized_image:
+optimized_image: https://i.imgur.com/y1YfdRb.png
 category: ncaamb
-tags: duke, ncaa, analytics
+tags: duke ncaa analytics
 author: kdutta
 fullname: Kunal Dutta
 paginate: false
