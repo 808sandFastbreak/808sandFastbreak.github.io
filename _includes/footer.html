@@ -1,15 +1,10 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <footer>
     <p>
-      {% if site.github_username %}
-        <a href="https://github.com/{{ site.github_username }}" title="Github">
-          <svg><use xlink:href="#icon-github"></use></svg>
+		<a style="padding-right: 2.5%;" href="https://www.youtube.com/channel/UCZ5xnbpfPNk-9bCwJSIqLew?view_as=subscriber" title="YouTube">
+         <i class="fa fa-youtube fa-lg"></i>
         </a>
-      {% endif %}
-      {% if site.facebook_username %}
-        <a href="https://www.facebook.com/{{ site.facebook_username }}" title="Facebook">
-          <svg><use xlink:href="#icon-facebook"></use></svg>
-        </a>
-      {% endif %}
       {% if site.twitter_username %}
         <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">
           <svg><use xlink:href="#icon-twitter"></use></svg>
@@ -25,9 +20,19 @@
           <svg><use xlink:href="#icon-instagram"></use></svg>
         </a>
       {% endif %}
+	  {% if site.facebook_username %}
+        <a href="https://www.facebook.com/{{ site.facebook_username }}" title="Facebook">
+          <svg><use xlink:href="#icon-facebook"></use></svg>
+        </a>
+      {% endif %}
       {% if site.linkedin_username %}
         <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">
           <svg><use xlink:href="#icon-linkedin"></use></svg>
+        </a>
+      {% endif %}
+	  {% if site.github_username %}
+        <a href="https://github.com/{{ site.github_username }}" title="Github">
+          <svg><use xlink:href="#icon-github"></use></svg>
         </a>
       {% endif %}
     </p>
@@ -36,12 +41,6 @@
 </footer>
 
 {% assign social_urls = '' %}
-{% if site.github_username %}
-    {% assign social_urls = social_urls | append: '"https://github.com/' | append: site.github_username | append: '",' %}
-{% endif %}
-{% if site.facebook_username %}
-    {% assign social_urls = social_urls | append: '"https://www.facebook.com/' | append: site.facebook_username | append: '",' %}
-{% endif %}
 {% if site.twitter_username %}
     {% assign social_urls = social_urls | append: '"https://twitter.com/' | append: site.twitter_username | append: '",' %}
 {% endif %}
@@ -53,6 +52,12 @@
 {% endif %}
 {% if site.linkedin_username %}
     {% assign social_urls = social_urls | append: '"https://www.linkedin.com/in/' | append: site.linkedin_username | append: '",' %}
+{% endif %}
+{% if site.facebook_username %}
+    {% assign social_urls = social_urls | append: '"https://www.facebook.com/' | append: site.facebook_username | append: '",' %}
+{% endif %}
+{% if site.github_username %}
+    {% assign social_urls = social_urls | append: '"https://github.com/' | append: site.github_username | append: '",' %}
 {% endif %}
 
 <script type="application/ld+json">
